@@ -1,6 +1,6 @@
 {
   "name": "express-meshblu-ratelimit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rate limit requests by meshblu auth uuid",
   "main": "index.js",
   "directories": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
     "limitus": "^1.0.3",
     "lodash": "^3.10.0",
     "sinon": "^1.15.4",

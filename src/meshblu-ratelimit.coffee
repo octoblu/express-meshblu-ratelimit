@@ -1,4 +1,5 @@
 Limitus = require 'limitus'
+_       = require 'lodash'
 
 class MeshbluRateLimit
   constructor: (options={})->
@@ -9,5 +10,5 @@ class MeshbluRateLimit
 
   rateLimit: (id="", callback=->) =>
     @limiter.drop @name, id, callback
-    
+
 module.exports = MeshbluRateLimit
