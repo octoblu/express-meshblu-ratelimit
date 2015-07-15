@@ -1,0 +1,36 @@
+{
+  "name": "express-meshblu-ratelimit",
+  "version": "1.0.0",
+  "description": "Rate limit requests by meshblu auth uuid",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.0.0",
+    "limitus": "^1.0.3",
+    "lodash": "^3.10.0",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/express-meshblu-ratelimit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/express-meshblu-ratelimit/issues"
+  },
+  "homepage": "https://github.com/octoblu/express-meshblu-ratelimit#readme"
+}

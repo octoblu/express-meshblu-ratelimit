@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: npm
+  email: serveradmin@octoblu.com
+  api_key:
+    secure: HLci4MEiYHaPgdLX3PjfFxzIzclSJklYFDbYbaAG+fwddJW+nQ8v9iGrY81BCB/fXMJTMEq/6Ffts2tQbxAci+fEdZf6qQgZNG4f+NIxwmCkncvpOhQRPtBYjVrnzQbYH9CPOy7iREUZ3LM712tKw85sFRTCAvAuyxgrYtF/MAVn0ZGqZwayc2er6U75HTuAcd0HbO3N9gPqjWt+vtkk+r3L5s3VNi3KUJfo78fr4TFmXUPlETrugpxomUjmd2WmdXYktAUJ6yWLX6AUsN9V1h+e3ssq+nmyCeeDjTDwCs7Y22GkOz09YhJBjfTBY/5yXkLABOMtTnhM8B8LmW1OOaES9v0NR+McbEsyWAG2NK5Bri0oLo19RpHgmAgzNX0s7mjlosQUDyvJqnYhZfUZnS7f8tb9pk5D61LxWdH8b3nr2CIxZ3h078VJsIB8ec8TMmtBLyH0RTohO6RPmOvwMsESH+zuOPKhZIMSPI0f3qm6+KOfkNxR4I6yKDIZvY9GpPdaL8GiSK3mR6TTXQSemwpraOba/Bzh6bqeolRzqGak0LN1PkAHITjsdMb8oPbtfBkEEeMohBmddMrTREK2n0/vwb/MzMOx5YOST9owwFVu4G05OADm0NsI2CkiQ99cHfX3+8rwqiNAaAzaFElJk+xUSv+Ak+yj4Y0zwtpmWe4=
+  on:
+    tags: true
+    repo: octoblu/express-meshblu-ratelimit
