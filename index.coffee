@@ -5,8 +5,8 @@ module.exports = (options) ->
 
   middleware = (request, response, next) ->
     {uuid} = request.meshbluAuth ? {}
-    rateLimited = meshbluRateLimit.rateLimit uuid
-    return response.status(420).send({error: 'rate limited'}) if rateLimited
-    next()
+    meshbluRateLimit.rateLimit uuid, (error) =>  
+      return response.status(420).send({error: 'rate limited'}) if error?
+      next()
 
   middleware
